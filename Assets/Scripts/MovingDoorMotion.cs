@@ -16,14 +16,20 @@ public class MovingDoorMotion : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        anim.SetBool("doorOpen", true);
-        sound.PlayDelayed(0.5f);
+        if (!anim.GetBool("doorOpen"))
+        {
+            anim.SetBool("doorOpen", true);
+            sound.PlayDelayed(0.5f);
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        anim.SetBool("doorOpen", false);
-        sound.PlayDelayed(0.5f);
+        if (anim.GetBool("doorOpen"))
+        {
+            anim.SetBool("doorOpen", false);
+            sound.PlayDelayed(0.5f);
+        }
     }
 
     // Update is called once per frame

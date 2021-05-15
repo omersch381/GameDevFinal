@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1fcde1eb-8546-5a04-50f7-8c576dbfe1f5}</ProjectGuid>
+    <ProjectGuid>{4cad3e14-5c8f-5172-5dbf-dedb4a33ad5f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -37,8 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerMotion.cs" />
+     <Compile Include="Assets\Scripts\ClaireBehavior.cs" />
      <Compile Include="Assets\Scripts\MovingDoorMotion.cs" />
+     <Compile Include="Assets\Scripts\MouseBehavior.cs" />
+     <Compile Include="Assets\Scripts\RacerBehavior.cs" />
      <Compile Include="Assets\Scripts\DoorMotion.cs" />
+     <Compile Include="Assets\Scripts\PickTarget.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -568,31 +572,31 @@
         <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/home/omer/Desktop/game_dev/ex_2/ex_2_Omer_Schwartz_205486897/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
