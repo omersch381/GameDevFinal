@@ -8,7 +8,7 @@ public class PlayerMotion : MonoBehaviour
     private CharacterController controller;
     private float speed = 0.3f;
     private float rx = 0, ry;
-    private float angularSpeed = 1f;
+    private float angularSpeed = 4f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,10 +22,11 @@ public class PlayerMotion : MonoBehaviour
         float dx, dz;
 
         // Mouse
-        rx -= Input.GetAxis("Mouse Y") * angularSpeed;
-        ry = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * angularSpeed;
+        rx -= Input.GetAxis("Mouse Y") * angularSpeed / 4;
         playerCamera.transform.localEulerAngles = new Vector3(rx, 0, 0);
-        transform.localEulerAngles = new Vector3(0, ry, 0);
+
+        ry = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * angularSpeed;
+        transform.localEulerAngles = new Vector3(0,ry, 0);
 
         // Keyboard
         dx = Input.GetAxis("Horizontal") * speed;
