@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4cad3e14-5c8f-5172-5dbf-dedb4a33ad5f}</ProjectGuid>
+    <ProjectGuid>{35b4c3ca-37d4-4599-1b67-c2413c455ac5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,13 +36,31 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerMotion.cs" />
+     <Compile Include="Assets\Scripts\DM3Motion.cs" />
+     <Compile Include="Assets\Scripts\PlayerShoots.cs" />
+     <Compile Include="Assets\Scripts\D2Motion.cs" />
+     <Compile Include="Assets\Scripts\DB1Motion.cs" />
+     <Compile Include="Assets\Scripts\D3Motion.cs" />
      <Compile Include="Assets\Scripts\ClaireBehavior.cs" />
      <Compile Include="Assets\Scripts\MovingDoorMotion.cs" />
-     <Compile Include="Assets\Scripts\MouseBehavior.cs" />
-     <Compile Include="Assets\Scripts\RacerBehavior.cs" />
-     <Compile Include="Assets\Scripts\DoorMotion.cs" />
      <Compile Include="Assets\Scripts\PickTarget.cs" />
+     <Compile Include="Assets\Scripts\PickPistol.cs" />
+     <Compile Include="Assets\Scripts\DM1Motion.cs" />
+     <Compile Include="Assets\Scripts\D1Motion.cs" />
+     <Compile Include="Assets\Scripts\MouseBehavior.cs" />
+     <Compile Include="Assets\Scripts\PlayerMotion.cs" />
+     <Compile Include="Assets\Scripts\RacerBehavior.cs" />
+     <Compile Include="Assets\Scripts\D4Motion.cs" />
+     <Compile Include="Assets\Scripts\DB2Motion.cs" />
+     <Compile Include="Assets\Scripts\DM2Motion.cs" />
+     <Compile Include="Assets\Scripts\DoorMotion.cs" />
+     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
+     <Compile Include="Assets\Scripts\ClaireTempPickTarget.cs" />
+     <Compile Include="Assets\Scripts\PlayerThrowGrenade.cs" />
+     <Compile Include="Assets\Scripts\ClaireThrowGrenade.cs" />
+     <Compile Include="Assets\Scripts\MouseThrowGrenade.cs" />
+     <Compile Include="Assets\Scripts\RacerThrowGrenade.cs" />
+     <None Include="Assets\Prefabs\glock19\Glock19_readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -572,31 +590,31 @@
         <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/home/omer/Desktop/game_dev/ex_3/Game_Dev_Ex_3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

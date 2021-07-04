@@ -7,6 +7,10 @@ TagManager:
   - Mouse
   - Racer
   - Claire
+  - PlayerBullet
+  - ClaireBullet
+  - RacerBullet
+  - MouseBullet
   layers:
   - Default
   - TransparentFX
