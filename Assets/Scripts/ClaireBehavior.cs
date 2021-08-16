@@ -15,8 +15,15 @@ public class ClaireBehavior : MonoBehaviour
     public GameObject Teammate;
     public GameObject PatrolTarget;
     public GameObject GunInHand;
+    public GameObject GunOnGround;
     public GameObject Bullet;
     private GameObject closestTarget;
+    public GameObject explosion;
+    public GameObject GrenadeInDrawers;
+    public GameObject GrenadeInHand;
+    public GameObject part1;
+    public GameObject part2;
+    public GameObject ChestOfDrawers;
     private GameObject[] enemies;
 
     const float PATROLING_SPEED = 4f;
@@ -34,23 +41,45 @@ public class ClaireBehavior : MonoBehaviour
     const int NON_SHOOTING_POSITION = 1;
     const int SHOOTING_POSITION = 2;
 
-    public int hp;
+    public static int hp;
     private AudioSource shotSound;
     public Text enemyHPStatus;
+    private bool damageReceived = false;
 
-    float timer = 0;
+    float ShootingTimer = 0;
+    float GrenadeTimer = 0;
     float RELOAD_TIME = 1.125f;
+    float RECEIVE_GRANADE_TIME = 1.5f;
+    float GRENADE_THROW_GAP_TIME = 5f;
+    const int THROW_DISTANCE = 12;
+    const int THROWING_HEIGHT = 5;
+    const int GRANADE_EXPLOSION_DISTANCE = 10;
+    const float GRANADE_POWER = 1000.0f;
+    const float TIME_UNTIL_EXPLODE = 1.5f;
 
     bool gunInShootingPosition = false;
+    private string oldHPString;
 
     void Start()
     {
+        PlaceChestOfDrawersWithPistol();
         anim = GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         navMeshAgent.speed = PATROLING_SPEED;
         hp = HEALTH_POINTS;
         shotSound = GunInHand.GetComponent<AudioSource>();
         assignEnemies(Enemy1, Enemy2);
+    }
+
+    void PlaceChestOfDrawersWithPistol()
+    {
+        Vector3[] chestLocations = {
+            new Vector3(-30f, 0.5f, 18.949f),
+            new Vector3(-30f, 0.5f, 62.45f)
+        };
+
+        int index = UnityEngine.Random.Range(0, chestLocations.Length);
+        ChestOfDrawers.transform.position = chestLocations[index];
     }
 
     void assignEnemies(GameObject enemy1, GameObject enemy2)
@@ -67,6 +96,21 @@ public class ClaireBehavior : MonoBehaviour
 
         else // Claire is alive
         {
+            if (!GunInHand.activeSelf)
+            {
+                GetPistol();
+                return;
+            }
+
+            if (!GrenadeInHand.activeSelf)
+            {
+                GetGrenade();
+                return;
+            }
+
+            if (GetComponent<Rigidbody>().velocity.magnitude > 0)
+                StartCoroutine(ReceiveGrenadeDamage());
+
             closestTarget = getClosestEnemyTarget();
             float distanceFromTarget = getDistanceFrom(closestTarget);
 
@@ -82,12 +126,38 @@ public class ClaireBehavior : MonoBehaviour
         }
     }
 
+    void GetPistol()
+    {
+        navMeshAgent.enabled = true;
+        navMeshAgent.SetDestination(GunOnGround.transform.position);
+        if (getDistanceFrom(GunOnGround) <= 10f)
+        {
+            GunOnGround.SetActive(false);
+            GunInHand.SetActive(true);
+        }
+    }
+
+    void GetGrenade()
+    {
+        navMeshAgent.enabled = true;
+        navMeshAgent.SetDestination(GrenadeInDrawers.transform.position);
+        if (getDistanceFrom(GrenadeInDrawers) <= 10f)
+        {
+            GrenadeInDrawers.SetActive(false);
+            GrenadeInHand.SetActive(true);
+        }
+    }
+
     IEnumerator Die()
     {
+        print("Claire Died, good for you!!!");
+        hp = hp <= 0 ? 0 : hp;
         anim.SetInteger("State", 2); // NPC dyes
         navMeshAgent.enabled = false; // NPS stops moving
         yield return new WaitForSeconds(3);
         gameObject.SetActive(false);
+        string oldHPString = enemyHPStatus.GetComponent<Text>().text.Substring(0,11);
+        enemyHPStatus.GetComponent<Text>().text = enemyHPStatus.GetComponent<Text>().text.Replace(oldHPString, "Claire: 000");
     }
 
     GameObject getClosestEnemyTarget()
@@ -132,6 +202,7 @@ public class ClaireBehavior : MonoBehaviour
         anim.SetInteger("State", SHOOTING_ANIMATION);
         movePistol(SHOOTING_POSITION);
         StartCoroutine(Shoot());
+        StartCoroutine(ThrowGrenade());
     }
 
     void rotateNPCTowardsTarget(GameObject target)
@@ -168,17 +239,88 @@ public class ClaireBehavior : MonoBehaviour
     IEnumerator Shoot()
     {
         RaycastHit hit;
-        timer += Time.deltaTime;
+        ShootingTimer += Time.deltaTime;
         Bullet.transform.position += new Vector3(5f,5f,5f);
-        if(timer > RELOAD_TIME)
+        if(ShootingTimer > RELOAD_TIME)
         {
             shotSound.Play();
             if (Physics.Raycast(new Vector3(this.transform.position.x, this.transform.position.y + 2f, this.transform.position.z),
                             this.transform.forward, out hit, 50f))
             {
                 Bullet.transform.position = hit.point;
-                timer = 0;
+                ShootingTimer = 0;
             }
+        }
+        yield return 0;
+    }
+
+    IEnumerator ThrowGrenade()
+    {
+        GrenadeTimer += Time.deltaTime;
+        if(GrenadeTimer > GRENADE_THROW_GAP_TIME)
+        {
+            throwGrenade();
+            GrenadeTimer = 0;
+        }
+        yield return 0;
+    }
+
+    void throwGrenade()
+    {
+        Vector3 direction = this.transform.forward * THROW_DISTANCE;
+        direction.y = THROWING_HEIGHT;
+        Rigidbody rb = GrenadeInHand.GetComponent<Rigidbody>();
+        rb.useGravity = true;
+        rb.AddForce(direction,ForceMode.Impulse);
+        StartCoroutine(Explode());
+    }
+
+    IEnumerator Explode()
+    {
+        yield return new WaitForSeconds(TIME_UNTIL_EXPLODE);
+        explosion.SetActive(true);
+        part1.SetActive(false);
+        part2.SetActive(false);
+        AudioSource grenadeExplosion = GrenadeInHand.GetComponent<AudioSource>();
+        grenadeExplosion.Play();
+
+        // Apply explosion on nearby object 
+        Collider[] objectsCollider = Physics.OverlapSphere(transform.position, GRANADE_EXPLOSION_DISTANCE);
+        
+        for(int i = 0; i<objectsCollider.Length;i++)
+        {
+            if(objectsCollider[i]!=null)
+            {
+                Rigidbody rbo = objectsCollider[i].GetComponent<Rigidbody>();
+                if(rbo!=null)
+                    rbo.AddExplosionForce(GRANADE_POWER, transform.position, GRANADE_EXPLOSION_DISTANCE);
+            }
+        }
+    }
+
+    void updateHPToUI()
+    {
+        hp = hp <= 0 ? 0 : hp;
+        string myHP = hp <= 10 ? "00" + hp : "0" + hp;
+        oldHPString = "Claire: " + myHP;
+        enemyHPStatus.GetComponent<Text>().text = oldHPString + enemyHPStatus.GetComponent<Text>().text.Substring(oldHPString.Length);
+    }
+
+    IEnumerator ReceiveGrenadeDamage()
+    {
+        if (!damageReceived)
+        {
+            damageReceived = true;
+            hp -= (int) GetComponent<Rigidbody>().velocity.magnitude * 2;
+            updateHPToUI();
+        }
+        GrenadeTimer += Time.deltaTime;
+        if(GrenadeTimer > RECEIVE_GRANADE_TIME)
+        {
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            GrenadeTimer = 0;
+            damageReceived = false;
         }
         yield return 0;
     }
@@ -228,8 +370,7 @@ public class ClaireBehavior : MonoBehaviour
             } catch {
                 return;
             }
-            string newHPString = "Claire: 0" + newHP;
-            enemyHPStatus.GetComponent<Text>().text = enemyHPStatus.GetComponent<Text>().text.Replace(oldHPString, newHPString);
-        }        
+            updateHPToUI();
+        }
     }
 }

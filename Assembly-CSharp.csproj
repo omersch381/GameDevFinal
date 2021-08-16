@@ -36,31 +36,147 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
      <Compile Include="Assets\Scripts\DM3Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\Scripts\MouseThrowGrenade.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\VignetteComponent.cs" />
      <Compile Include="Assets\Scripts\PlayerShoots.cs" />
      <Compile Include="Assets\Scripts\D2Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
      <Compile Include="Assets\Scripts\DB1Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\FogComponent.cs" />
      <Compile Include="Assets\Scripts\D3Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\DynamicSkyForDemo.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\Scripts\ClaireBehavior.cs" />
+     <Compile Include="Assets\Scripts\ClaireThrowGrenade.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\NVWaterShaders.cs" />
      <Compile Include="Assets\Scripts\MovingDoorMotion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
      <Compile Include="Assets\Scripts\PickTarget.cs" />
      <Compile Include="Assets\Scripts\PickPistol.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
      <Compile Include="Assets\Scripts\DM1Motion.cs" />
      <Compile Include="Assets\Scripts\D1Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Scripts\TDControl.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\Scripts\PlayerThrowGrenade.cs" />
+     <Compile Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
      <Compile Include="Assets\Scripts\MouseBehavior.cs" />
      <Compile Include="Assets\Scripts\PlayerMotion.cs" />
      <Compile Include="Assets\Scripts\RacerBehavior.cs" />
      <Compile Include="Assets\Scripts\D4Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\Scripts\DB2Motion.cs" />
      <Compile Include="Assets\Scripts\DM2Motion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
      <Compile Include="Assets\Scripts\DoorMotion.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Scripts\Lighthouse.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
      <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\Models\FogModel.cs" />
      <Compile Include="Assets\Scripts\ClaireTempPickTarget.cs" />
-     <Compile Include="Assets\Scripts\PlayerThrowGrenade.cs" />
-     <Compile Include="Assets\Scripts\ClaireThrowGrenade.cs" />
-     <Compile Include="Assets\Scripts\MouseThrowGrenade.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Runtime\PostProcessingContext.cs" />
      <Compile Include="Assets\Scripts\RacerThrowGrenade.cs" />
+     <Compile Include="Assets\Scripts\PickGrenade.cs" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\Water Specular.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\House\Pier House\Credits.txt" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\Dynamic Sky (For Demo).shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Palm Trees\Materials\Standard 2-Sided.shader" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Getting started.txt" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\license_unity.txt" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\license_nvjob.txt" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Flag\Materials\Flag.shader" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\Water Surface.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\Rainbow\Materials\No Fog.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\Prefabs\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\Prefabs\glock19\Glock19_readme.txt" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\NvWaters.cginc" />
     <Reference Include="UnityEngine">
         <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -244,350 +360,350 @@
     <Reference Include="UnityEditor">
         <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="netstandard">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.AppContext">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Concurrent">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.NonGeneric">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Specialized">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.EventBasedAsync">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Console">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.Common">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Contracts">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Debug">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Process">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.StackTrace">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TextWriterTraceListener">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tools">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TraceSource">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tracing">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Dynamic.Runtime">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Calendars">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Extensions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.ZipFile">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.DriveInfo">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Watcher">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.IsolatedStorage">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.MemoryMappedFiles">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipes">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.UnmanagedMemoryStream">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Expressions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Parallel">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Queryable">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NameResolution">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NetworkInformation">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Ping">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Requests">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Security">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Sockets">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebHeaderCollection">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets.Client">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ObjectModel">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Extensions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Reader">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.ResourceManager">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Writer">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.VisualC">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Extensions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Handles">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Numerics">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Formatters">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Json">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Xml">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Claims">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Csp">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Principal">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.SecureString">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.RegularExpressions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Overlapped">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Thread">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.ThreadPool">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Timer">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XDocument">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlSerializer">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Web">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Serialization">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    <Reference Include="mscorlib">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
     </Reference>
-    <Reference Include="mscorlib">
-        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    <Reference Include="System.Core">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>/home/omer/Unity/Hub/Editor/2020.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/home/omer/Desktop/afeka/game_dev/final_project/Game_Dev_Final/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

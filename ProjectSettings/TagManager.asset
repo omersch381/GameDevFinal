@@ -11,6 +11,8 @@ TagManager:
   - ClaireBullet
   - RacerBullet
   - MouseBullet
+  - PlayerGrenade
+  - Explosion
   layers:
   - Default
   - TransparentFX

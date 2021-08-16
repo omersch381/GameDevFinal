@@ -7,13 +7,15 @@ public class PlayerThrowGrenade : MonoBehaviour
     private bool isThrown = false;
     public GameObject player;
     public GameObject explosion;
+    public GameObject Grenade;
     public GameObject part1;
     public GameObject part2;
+    private Transform grenadeTransform;
 
     const int THROW_DISTANCE = 12;
     const int THROWING_HEIGHT = 5;
     const int GRANADE_EXPLOSION_DISTANCE = 10;
-    const float GRANADE_POWER = 1500.0f;
+    const float GRANADE_POWER = 1000.0f;
     const float TIME_UNTIL_EXPLODE = 1.5f;
 
     void Start()
@@ -22,7 +24,7 @@ public class PlayerThrowGrenade : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey("q") && !isThrown)
+        if (Input.GetKey("q") && !isThrown)
         {
                 isThrown = true;
                 ThrowGrenade();
@@ -33,7 +35,7 @@ public class PlayerThrowGrenade : MonoBehaviour
     {
         Vector3 direction = player.transform.forward * THROW_DISTANCE;
         direction.y = THROWING_HEIGHT;
-        Rigidbody rb = GetComponent<Rigidbody>();
+        Rigidbody rb = Grenade.GetComponent<Rigidbody>();
         rb.useGravity = true;
         rb.AddForce(direction,ForceMode.Impulse);
         StartCoroutine(Explode());
@@ -45,8 +47,8 @@ public class PlayerThrowGrenade : MonoBehaviour
         explosion.SetActive(true);
         part1.SetActive(false);
         part2.SetActive(false);
-        // AudioSource source = GetComponent<AudioSource>();
-        // source.Play();
+        AudioSource grenadeExplosion = Grenade.GetComponent<AudioSource>();
+        grenadeExplosion.Play();
 
         // Apply explosion on nearby object 
         Collider[] objectsCollider = Physics.OverlapSphere(transform.position, GRANADE_EXPLOSION_DISTANCE);
@@ -57,11 +59,16 @@ public class PlayerThrowGrenade : MonoBehaviour
             {
                 Rigidbody rbo = objectsCollider[i].GetComponent<Rigidbody>();
                 if(rbo!=null)
-                    {
                     rbo.AddExplosionForce(GRANADE_POWER, transform.position, GRANADE_EXPLOSION_DISTANCE);
-                    print("test");
-                    }
             }
         }
+    }
+
+    float CalculateExplosionValue(Vector3 aSource, Vector3 aTarget, float aRange)
+    {
+        float dist = (aTarget - aSource).magnitude;
+        if (dist > aRange)
+            return 0.0f;
+        return 1.0f - dist / aRange; 
     }
 }

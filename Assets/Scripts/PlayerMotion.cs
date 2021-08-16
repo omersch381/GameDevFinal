@@ -6,17 +6,15 @@ public class PlayerMotion : MonoBehaviour
 {
     public GameObject playerCamera;
     private CharacterController controller;
-    private float speed = 0.3f;
+    private float speed = 0.5f;
     private float rx = 0, ry;
     private float angularSpeed = 4f;
 
-    // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float dx, dz;
